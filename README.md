@@ -7,13 +7,11 @@ To demo the app, you need an API client or any tool you would normally use to ma
 
 * GET ```/articles``` HTTP/1.1
 ```json
-// Example request body
 {}
 ```
 
 * GET ```/articles/:articleId``` HTTP/1.1
 ```json
-// Example request body
 {
     "articleId": 1
 }
@@ -21,7 +19,6 @@ To demo the app, you need an API client or any tool you would normally use to ma
 
 * POST ```/articles``` HTTP/1.1
 ```json
-// Example request body
 {
     "title": "Building SDKs with Treblle",
     "description": "This is an article on how to build Treblle SDKs",
@@ -31,7 +28,6 @@ To demo the app, you need an API client or any tool you would normally use to ma
 
 * PUT ```/articles/:articleId``` HTTP/1.1
 ```json
-// Example request body
 {
     "articleId": 1,
     "title": "Building performant SDKs with Treblle",
@@ -42,7 +38,6 @@ To demo the app, you need an API client or any tool you would normally use to ma
 
 * DELETE ```/articles/:articleId``` HTTP/1.1
 ```json
-// Example request body
 {
     "articleId": 1
 }
